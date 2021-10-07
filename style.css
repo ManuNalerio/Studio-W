@@ -55,7 +55,7 @@ h1, h2 {
 .container-redes{
   background-color: #e6acad;
   width: 100%;
-  padding: 5px 0px;
+  padding: 20px 0px;
   text-align: right;
 }
 
@@ -78,8 +78,15 @@ h1, h2 {
   }
 
   .fotos{
+    width: 80%;
+  }
+
+  footer{
     width: 100%;
-    margin: 5px;
+    position: absolute;
+  }
+  .redes{
+    font-size: 20px;
   }
 }
 /* fin medias querys */
