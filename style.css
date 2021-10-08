@@ -83,7 +83,7 @@ h1, h2 {
 
   footer{
     width: 100%;
-    position: absolute;
+    position: relative;
   }
   .redes{
     font-size: 20px;
