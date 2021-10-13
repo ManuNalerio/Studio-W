@@ -13,9 +13,11 @@ body {
   background-color: #e6acad;
 }
 
-.container {
+.container-logo {
   text-align: center;
 }
+
+
 
 h1 {
   font-size: 50px;
@@ -37,51 +39,73 @@ h1, h2 {
 
 /*body*/
 
-.container-fotos{
-  display: flex;
-  width: 100%;
-  justify-content: space-evenly;
-  align-items: center;
+body{
+  margin: 0;
 }
 
-.fotos{
-  width: 40em;
+.flex-container{
+  display: flex;
+  flex-flow: row wrap;
+  padding: 40px;
+  width: 100%;
+  justify-content: center;
+}
+
+div-fotos{
+  width: 100%;
+}
+
+.imagen-flex{
+  width: 500px;
   margin: 20px;
 }
+
+
 
 /* Fin body */
 
 /* footer */
-.container-redes{
-  background-color: #e6acad;
+footer{
   width: 100%;
-  padding: 20px 0px;
+  padding: 5px 0px;
+  background-color: #e6acad;
+}
+
+.redes-insta, .redes-face{
+
   text-align: right;
 }
 
-.redes{
+a{
   text-decoration: none;
   font-size: 25px;
   font-family: Arial, Helvetica, sans-serif;
   color: #ff65c3;
   font-weight: 600;
   margin: 10px;
+  justify-content: center;
 }
+
+
 
 /* fin footer */
 
 /* medias querys */
 
-@media only screen and (max-width: 320px) {
-  h1{
+@media only screen and (max-width: 560px) {
+  .container-logo{
     width: 100%;
   }
+  
+  h1{
+    width: 100%;
+    font-size: 50px;
+  }
 
-  .fotos{
-    width: 80%;
-    display: flex;
-    flex-wrap: nowrap;
-    flex-direction:row-reverse ;
+  .imagen-flex{ 
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
   }
 
   footer, .container-redes{
