@@ -1,23 +1,22 @@
 
 body{
-    margin: 0;
-    background-color: #dbb7b7;
-  }
+  margin: 0;
+  background-color: #dbb7b7;
+}
+
+.flex-container{
+  display: flex;
+  flex-flow: row;
+  margin: 10px auto;
+  padding: 40px;
+  width: 100%;
+}
   
-  .flex-container{
-    display: flex;
-    flex-flow: row wrap;
-    padding: 40px;
-    width: 100%;
-    justify-content: center;
-  }
+div-fotos{
+  width: 100%;
+}
   
-  div-fotos{
-    width: 100%;
-  }
-  
-  .imagen-flex{
-    width: 500px;
-    margin: 20px;
-  }
-  
+.imagen-flex{
+  width: 100%;
+  margin: 10px auto;
+}
