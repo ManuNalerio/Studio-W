@@ -49,6 +49,36 @@ div-fotos {
   margin: 10px auto;
 }
 
+h2 {
+  text-align: center;
+  margin-top: 40px;
+  font-family: "Roboto", sans-serif;
+}
+
+.flex-container {
+  display: flex;
+  flex-flow: row wrap;
+  padding: 40px;
+  width: 100%;
+  justify-content: center;
+}
+.flex-container div {
+  width: 500px;
+  height: 100%;
+  margin: 20px;
+}
+.flex-container img p {
+  text-align: center;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+}
+
+.imagen-flex {
+  width: 100%;
+  box-shadow: 7px -20px 50px #777777;
+}
+
 .buttons {
   width: 100%;
   display: flex;
@@ -80,7 +110,7 @@ footer {
   background-color: #e6acad;
 }
 
-.copyright {
+.direccion-fiscal {
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
