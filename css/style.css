@@ -50,9 +50,12 @@ div-fotos {
 }
 
 h2 {
+  font-size: 50px;
+  -webkit-text-stroke: 2px #ff65c3;
+  color: black;
   text-align: center;
-  margin-top: 40px;
-  font-family: "Roboto", sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 20px;
 }
 
 .flex-container {
@@ -67,16 +70,36 @@ h2 {
   height: 100%;
   margin: 20px;
 }
-.flex-container img p {
-  text-align: center;
-  font-size: 15px;
-  font-weight: 500;
-  font-family: "Roboto", sans-serif;
-}
 
 .imagen-flex {
   width: 100%;
   box-shadow: 7px -20px 50px #777777;
+}
+
+h2 {
+  font-size: 50px;
+  -webkit-text-stroke: 2px #ff65c3;
+  color: black;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 20px;
+}
+
+.flex-container {
+  display: flex;
+  flex-flow: row wrap;
+  padding: 40px;
+  width: 100%;
+  justify-content: center;
+}
+.flex-container div {
+  width: 500px;
+  height: 100%;
+  margin: 20px;
+}
+
+.video-flex {
+  width: 100%;
 }
 
 .buttons {
